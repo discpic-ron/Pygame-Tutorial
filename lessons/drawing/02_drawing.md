@@ -11,4 +11,4 @@ Pygame provides a library of functions to draw directly onto a surface. The comm
 * Coordinates: Where it goes.
 * Width: (Optional) If you leave this out, the shape is filled. If you put a number, it becomes an outline.
 
-You can also use `pygame.Shape()`. 
+You can also use `pygame.Shape()`. However, `width` is required when using `pygame.Rect()`.
